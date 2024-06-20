@@ -1,0 +1,98 @@
+.job-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 35%;
+}
+
+input,
+textarea {
+  margin: 3px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+.form-section {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+}
+
+.radio input {
+  margin-right: 5px;
+}
+
+.checked {
+  display: flex;
+  align-items: center;
+}
+
+.checked input {
+  width: 10%;
+}
+
+.file-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.file-input label {
+  margin-right: 5px;
+}
+.label{
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 4px;
+  color: #252525;
+  font-weight: bold;
+
+}
+.basic-input{
+  /* text-align: start; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.job-requirements-container{
+  border: 1px solid rgb(174, 174, 174);
+  padding: 15px;
+  border-radius: 9px;
+  width: 100%;
+}
+
